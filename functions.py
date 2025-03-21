@@ -9,7 +9,7 @@ def AddIncome (data):
       return data
 
 def AddExpense(data):
-      print ("AddIncome")
+      print ("AddExpense")
       amount = int(input("Please enter new expense amount: "))
       type = input("Please enter type of expense: ")
       data["balance"] -= amount
